@@ -2,7 +2,7 @@
 @section('content')
 <div class="panel">
     <div class="row">
-        <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="col-md-3 col-sm-6 col-xs-6">
             <div class="home-panel">
                 <i class="fa fa-cart-plus" aria-hidden="true"></i>
                 <h2>Tổng GD(24h)</h2>
@@ -11,7 +11,7 @@
                 202
             </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="col-md-3 col-sm-6 col-xs-6">
             <div class="home-panel">
                 <i class="fa fa-usd" aria-hidden="true"></i>
                 <h2>Doanh thu(24h)</h2>
@@ -20,7 +20,7 @@
                 1.205.000VND
             </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="col-md-3 col-sm-6 col-xs-6">
             <div class="home-panel">
                 <i class="fa fa-eye" aria-hidden="true"></i>
                 <h2>GD nghi ngờ(24h)</h2>
@@ -29,7 +29,7 @@
                 20
             </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="col-md-3 col-sm-6 col-xs-6">
             <div class="home-panel">
                 <i class="fa fa-exchange" aria-hidden="true"></i>
                 <h2>GD hoàn/hủy(24h)</h2>
@@ -71,7 +71,7 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
-                    <canvas id="home-chart"></canvas>
+                    <canvas id="line-chart"></canvas>
                 </div>
             </div>
         </div>

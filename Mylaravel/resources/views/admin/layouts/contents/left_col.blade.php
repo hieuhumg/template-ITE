@@ -25,7 +25,7 @@
         <div class="menu_section">
             <h3>General</h3>
             <ul class="nav side-menu">
-                <li><a><i class="fa fa-home"></i> Trang chủ <span class="fa fa-chevron-down"></span></a>
+                <li><a href="{{ url('admin') }}"><i class="fa fa-home"></i> Trang chủ</span></a>
                 </li>
                 <li><a><i class="fa fa-edit"></i> Quản Lý Tài Khoản <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
@@ -35,7 +35,7 @@
                 </li>
                 <li><a><i class="fa fa-desktop"></i> Giao dịch <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="giaodich.tra-cuu-giao-dich">Tra cứu giao dịch</a></li>
+                        <li><a href="{{ url('admin/giaodich/tra-cuu-giao-dich') }}">Tra cứu giao dịch</a></li>
                     </ul>
                 </li>
                 <li><a><i class="fa fa-table"></i> Giao dịch hoãn <span class="fa fa-chevron-down"></span></a>

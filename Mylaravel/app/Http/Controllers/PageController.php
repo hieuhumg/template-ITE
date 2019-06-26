@@ -19,4 +19,7 @@ class PageController extends Controller
     public function getlookUpTransaction(){
         return view('admin.giaodich.tracuugiaodich');
     }
+    public function login(){
+        return view('admin.login.signin');
+    }
 }
