@@ -38,7 +38,10 @@
                         <li><a href="{{ url('admin/giaodich/tra-cuu-giao-dich') }}">Tra cứu giao dịch</a></li>
                     </ul>
                 </li>
-                <li><a><i class="fa fa-table"></i> Giao dịch hoãn <span class="fa fa-chevron-down"></span></a>
+                <li><a><i class="fa fa-table"></i> Giao dịch hoàn <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="form.html">Thông tin đăng ký</a></li>
+                    </ul>
                 </li>
                 <li><a><i class="fa fa-bar-chart-o"></i> Giao dịch đáng ngờ <span class="fa fa-chevron-down"></span></a>
                 </li>

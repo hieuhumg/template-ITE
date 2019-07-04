@@ -36,6 +36,7 @@
         rel="stylesheet">
     <link href="{{asset('gentelella/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css')}}"
         rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Custom Theme Style -->
     <link href="{{asset('gentelella/build/css/custom.min.css')}}" rel="stylesheet">

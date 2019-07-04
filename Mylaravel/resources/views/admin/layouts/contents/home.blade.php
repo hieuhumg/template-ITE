@@ -1,5 +1,18 @@
 @extends('admin.layouts.master')
 @section('content')
+    <style>
+        .my-custom-scrollbar {
+            position: relative;
+            height: 350px;
+            overflow: auto;
+        }
+        /*.table-wrapper-scroll-y  {*/
+             /*display: block;*/
+         /*}*/
+        .tbody {
+            display: block;
+        }
+    </style>
 <div class="panel">
     <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-6">
@@ -72,7 +85,13 @@
                 </div>
                 <div class="x_content">
                     <canvas id="line-chart"></canvas>
+                    <div class="description-t">
+                        <div class="box-t">100</div>
+                        <p>Đơn vị VND</p>
+                        <p class="total">TỔNG: 1,206,000VND</p>
+                    </div>
                 </div>
+
             </div>
         </div>
         <div class="col-xs-12 col-sm-5 col-md-5">
@@ -99,80 +118,122 @@
                         </ul>
                     </div>
                 </div>
-                <div class="x_content">
-                    <table class="table table-striped jambo_table bulk_action">
-                        <thead>
-                            <tr class="headings">
-                                <th class="column-title">Mã GD</th>
-                                <th class="column-title">Thời gian </th>
-                                <th class="column-title">Giá trị (VND) </th>
-                            </tr>
-                        </thead>
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
 
+                    <table class="table table-bordered table-striped mb-0">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="col-4">Mã GD</th>
+                            <th scope="col" class="col-4">Thời gian</th>
+                            <th scope="col" class="col-4">Giá trị(VND)</th>
+                        </tr>
+                        </thead>
                         <tbody>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="odd pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="odd pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
-                            <tr class="even pointer">
-                                <td class=" ">GPMN34020</td>
-                                <td class=" ">27/11/2018-10:20</td>
-                                <td class="a-right a-right ">1000.000</td>
-                            </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+
+
                         </tbody>
                     </table>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 @endsection
 

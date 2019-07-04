@@ -74,6 +74,7 @@
                     </div>
                     <div class="col-xs-12  col-sm-2 ">
                         <button type="button" class="btn btn-info btn-sm">Tìm kiếm</button>
+                        <button type="button" class="btn btn-info btn-sm">Xuất file</button>
                     </div>
 
                 </div>
@@ -134,7 +135,7 @@
                                         <td class="sorting_1">24/12/2019-14:20</td>
                                         <td>500.000</td>
                                         <td>212143435325523532</td>
-                                        <td>Chí Hiếu</td>
+                                        <td>Nguyễn Thu Hiền</td>
                                         <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
                                     </tr>
                                     <tr role="row" class="odd">
@@ -142,7 +143,7 @@
                                         <td class="">ferh55345</td>
                                         <td class="sorting_1">24/12/2019-14:20</td>
                                         <td>500.000</td>
-                                        <td>212143435325523532</td>
+                                        <td>5656565466546234</td>
                                         <td>Nguyễn Chí Hiếu</td>
                                         <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
                                     </tr>
@@ -151,26 +152,7 @@
                                         <td class="">aerh553f45</td>
                                         <td class="sorting_1">24/12/2019-14:20</td>
                                         <td>500.000</td>
-                                        <td>212143435325523532</td>
-                                        <td>Chí Hiếu</td>
-                                        <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
-                                    </tr>
-
-                                    <tr role="row" class="odd">
-                                        <td class="">1</td>
-                                        <td class="">ferh55345</td>
-                                        <td class="sorting_1">24/12/2019-14:20</td>
-                                        <td>500.000</td>
-                                        <td>212143435325523532</td>
-                                        <td>Nguyễn Chí Hiếu</td>
-                                        <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
-                                    </tr>
-                                    <tr role="row" class="even">
-                                        <td class="">2</td>
-                                        <td class="">aerh553f45</td>
-                                        <td class="sorting_1">24/12/2019-14:20</td>
-                                        <td>500.000</td>
-                                        <td>212143435325523532</td>
+                                        <td>1232132345435443</td>
                                         <td>Chí Hiếu</td>
                                         <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
                                     </tr>
@@ -189,7 +171,26 @@
                                         <td class="">aerh553f45</td>
                                         <td class="sorting_1">24/12/2019-14:20</td>
                                         <td>500.000</td>
+                                        <td>769768768768768</td>
+                                        <td>Chí Hiếu</td>
+                                        <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
+                                    </tr>
+
+                                    <tr role="row" class="odd">
+                                        <td class="">1</td>
+                                        <td class="">ferh55345</td>
+                                        <td class="sorting_1">24/12/2019-14:20</td>
+                                        <td>500.000</td>
                                         <td>212143435325523532</td>
+                                        <td>Nguyễn Chí Hiếu</td>
+                                        <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
+                                    </tr>
+                                    <tr role="row" class="even">
+                                        <td class="">2</td>
+                                        <td class="">aerh553f45</td>
+                                        <td class="sorting_1">24/12/2019-14:20</td>
+                                        <td>500.000</td>
+                                        <td>34543545434354</td>
                                         <td>Chí Hiếu</td>
                                         <td><a href="" data-toggle="modal" data-target="#myModal">Chi tiết</a></td>
                                     </tr>
