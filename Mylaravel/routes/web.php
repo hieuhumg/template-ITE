@@ -22,3 +22,4 @@ Route::get('admin/tables/table','PageController@getTable');
 Route::get('admin/tables/table-dynamic','PageController@getTableDynamic');
 Route::get('admin/giaodich/tra-cuu-giao-dich','PageController@getlookUpTransaction');
 Route::get('admin/login/dang-nhap','PageController@login');
+Route::get('admin/giaodichhoan/danh-sach','PageController@reFund');

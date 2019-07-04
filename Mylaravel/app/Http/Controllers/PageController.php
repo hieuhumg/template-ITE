@@ -22,4 +22,7 @@ class PageController extends Controller
     public function login(){
         return view('admin.login.signin');
     }
+    public function reFund(){
+        return view('admin.giaodichhoan.refund');
+    }
 }
