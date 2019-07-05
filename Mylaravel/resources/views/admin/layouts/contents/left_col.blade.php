@@ -29,8 +29,8 @@
                 </li>
                 <li><a><i class="fa fa-edit"></i> Quản Lý Tài Khoản <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="form.html">Thông tin đăng ký</a></li>
-                        <li><a href="form_advanced.html">Quản lý mã</a></li>
+                        <li><a href="{{ url('admin/quanlytaikhoan/thong-tin-dang-ky') }}">Thông tin đăng ký</a></li>
+                        <li><a href="{{ url('admin/quanlytaikhoan/quan-ly-ma-code') }}">Quản lý mã</a></li>
                     </ul>
                 </li>
                 <li><a><i class="fa fa-desktop"></i> Giao dịch <span class="fa fa-chevron-down"></span></a>

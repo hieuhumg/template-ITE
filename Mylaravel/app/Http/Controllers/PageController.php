@@ -25,4 +25,10 @@ class PageController extends Controller
     public function reFund(){
         return view('admin.giaodichhoan.refund');
     }
+    public function codeManagement() {
+        return view ('admin.quanlytaikhoan.codeManagement');
+    }
+    public function marchantInfo() {
+        return view ('admin.quanlytaikhoan.marchantInfo');
+    }
 }
