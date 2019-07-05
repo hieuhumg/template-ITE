@@ -84,7 +84,7 @@
                                                     <div class="ln_solid"></div>
                                                     <div class="form-group">
                                                         <div class="col-12">
-                                                            <button class="btn btn-primary" type="button">Cập nhật</button>
+                                                            <button class="btn btn-primary btn-center" type="button">Cập nhật</button>
                                                         </div>
                                                     </div>
 

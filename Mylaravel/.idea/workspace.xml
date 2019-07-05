@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="marchantInfo.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="marchantInfo.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/quanlytaikhoan/marchantInfo.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="86" column="97" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+              <caret line="86" column="134" lean-forward="true" selection-start-line="86" selection-start-column="134" selection-end-line="86" selection-end-column="134" />
             </state>
           </provider>
         </entry>
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-privated.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style-privated.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/gentelella/build/css/style-privated.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+            <state relative-caret-position="401">
+              <caret line="248" column="33" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/contents/left_col.blade.php" />
-        <option value="$PROJECT_DIR$/public/gentelella/build/css/style-privated.scss" />
         <option value="$PROJECT_DIR$/resources/views/admin/quanlytaikhoan/marchantInfo.blade.php" />
+        <option value="$PROJECT_DIR$/public/gentelella/build/css/style-privated.scss" />
       </list>
     </option>
   </component>
@@ -412,12 +412,12 @@
       <workItem from="1562122171799" duration="13253000" />
       <workItem from="1562225100261" duration="5433000" />
       <workItem from="1562292494192" duration="4351000" />
-      <workItem from="1562297509674" duration="3327000" />
+      <workItem from="1562297509674" duration="3624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26364000" />
+    <option name="totallyTimeSpent" value="26661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -723,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gentelella/build/css/style-privated.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/quanlytaikhoan/codeManagement.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -743,7 +736,14 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/quanlytaikhoan/marchantInfo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="86" column="97" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+          <caret line="86" column="134" lean-forward="true" selection-start-line="86" selection-start-column="134" selection-end-line="86" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gentelella/build/css/style-privated.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="248" column="33" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="33" />
         </state>
       </provider>
     </entry>
